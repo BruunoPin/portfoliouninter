@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Bruno Pinheiro</title>
+
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--boxiconx-->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--link boxiconx-->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+
+        <ul class="menu">
+            <li><a href="#">Sobre Mim</a></li>
+            <li><a href="#">Formação</a></li>
+            <li><a href="#">Portfólio</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+
+    <main>
+        
+    <!--Sobre Mim-->
+    <section class="personal">
+        <div class="personal-text">
+            <h4>Analista de Dados</h4>
+            <h1>BRUNO PINHEIRO</h1>
+            <p>Cursando Análise e Desenvolvimento de Sistemas.
+            Trabalho coletando e analisando dados de inteligência empresarial para gerar insights</p>
+            <a href="#" class="ctaa"><i class="ri-whatsapp-line"></i>Fale Comigo</a>
+        </div>
+
+        <div class="perfil-img">
+            <img src="perfil.png">
+        </div>
+    </section>
+    <div class="icons">
+        <a href="#"><i class="ri-github-line"></i></a>
+        <a href="#"><i class="ri-linkedin-box-line"></i></a>
+     </div>
+   
+    <div class="scroll-down">
+        <a href="#"><i class="ri-arrow-down-s-fill"></i></a>
+    </div>
+
+    <!--Formação-->
+    <section class="personal">
+        <div class="personal-text">
+            <h1>Formação</h1>
+            <h1>Power BI</h1>
+            <p>Capacidade de criar painéis e relatórios interativos e visualmente atraentes.</p>
+            <h1>SQL</h1>
+            <p>Conhecimento profundo dos conceitos de armazenamento de dados e dos processos de ETL</p>
+            <h1>Python</h1>
+            <p>Análise exploratória e automações</p>
+        </div>
+    </section>
+
+       <!--Portfolio-->
+       <section class="personal">
+        <div class="personal-text">
+            <h1>Portfolio</h1>
+            <div class="perfil-img">
+                <img src="Dash.png">
+                <img src="python.png">
+            </div>
+        </div>
+    </section>
+
+    <!--Contato-->
+
+    <section class="forms">
+        <div class="form-container">
+            <form action="/submit" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+    <!--scrollreveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--js link-->
+    <script src="script.js"></script>
+    
+</body>
+</html>
